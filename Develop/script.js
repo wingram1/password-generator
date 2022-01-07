@@ -1,9 +1,9 @@
 // Assignment code here
 var generatePassword = function() {
 
-console.log("New password! :D")
+  console.log("New password! :D")
 
-//prompt for password length
+  //prompt for password length
   var lengthPrompt = window.prompt("How long would you like your password to be (8 characters minimum, 128 characters maximum)?");
 
   while (!(lengthPrompt > 8) || !(lengthPrompt < 128)) {
